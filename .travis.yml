@@ -3,8 +3,10 @@ sudo: required
 language: java
 
 jdk:
+  - openjdk8
   - oraclejdk8
   - oraclejdk9
+  - ibmjava8
 
 cache:
   directories:
